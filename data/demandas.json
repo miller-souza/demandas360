@@ -1,0 +1,58 @@
+[
+  {
+    "id": "DEM-101",
+    "titulo": "Painel de conversão por canal",
+    "descricao": "Consolidar indicadores semanais de aquisição e conversão.",
+    "area": "Negócios",
+    "status": "Em andamento"
+  },
+  {
+    "id": "DEM-102",
+    "titulo": "Qualidade da base de clientes",
+    "descricao": "Mapear duplicidades, campos ausentes e regras de validação.",
+    "area": "Dados",
+    "status": "Em andamento"
+  },
+  {
+    "id": "DEM-103",
+    "titulo": "Automatizar relatório operacional",
+    "descricao": "Reduzir atividades manuais na preparação do relatório mensal.",
+    "area": "Operações",
+    "status": "Aguardando priorização"
+  },
+  {
+    "id": "DEM-104",
+    "titulo": "Análise de retenção",
+    "descricao": "Investigar comportamento de coortes ao longo do tempo.",
+    "area": "Produto",
+    "status": "Aguardando priorização"
+  },
+  {
+    "id": "DEM-105",
+    "titulo": "Dicionário de indicadores",
+    "descricao": "Documentar definições e regras de cálculo dos KPIs.",
+    "area": "Dados",
+    "status": "Concluído"
+  },
+  {
+    "id": "DEM-106",
+    "titulo": "Monitoramento de SLA",
+    "descricao": "Criar visão de cumprimento de prazos por equipe.",
+    "area": "Operações",
+    "status": "Concluído"
+  },
+  {
+    "id": "DEM-107",
+    "titulo": "Segmentação de usuários",
+    "descricao": "Criar grupos para apoiar análises de comportamento.",
+    "area": "Produto",
+    "status": "Em andamento"
+  },
+  {
+    "id": "DEM-108",
+    "titulo": "Revisão do funil comercial",
+    "descricao": "Analisar etapas com maior perda de oportunidades.",
+    "area": "Negócios",
+    "status": "Concluído"
+  }
+]
