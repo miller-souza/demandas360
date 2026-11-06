@@ -1,0 +1,24 @@
+# Arquitetura
+
+O navegador carrega a interface servida pelo Flask. O JavaScript consome três endpoints REST. O backend lê um arquivo JSON local, aplica filtros e calcula indicadores.
+
+```text
+Dataset JSON → Flask / API REST → JavaScript → Quadro Kanban
+```
+
+A separação entre interface, API e dados permite substituir o arquivo JSON por um banco de dados em uma evolução futura.
+
+# Decisões técnicas
+
+- **Flask:** suficiente para uma API pequena, com baixa complexidade operacional.
+- **JSON:** facilita execução local e inspeção dos dados demonstrativos.
+- **Filtros no backend:** mantém a API reutilizável por outros clientes.
+- **JavaScript nativo:** evita dependências de framework para uma interface de escopo enxuto.
+- **Dados sintéticos:** permite demonstração sem expor dados de terceiros.
+
+# Problema de negócio
+
+Equipes que recebem solicitações de várias áreas podem perder visibilidade sobre prioridade, responsável e andamento. A solução organiza essas solicitações em uma visão compartilhada, com estados simples e indicadores de acompanhamento.
+
+## Resultado esperado
+Aumentar transparência, facilitar priorização e reduzir a necessidade de consultas individuais sobre o status das solicitações. Não são atribuídos ganhos quantitativos sem medição.
